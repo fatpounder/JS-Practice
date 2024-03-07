@@ -1,6 +1,8 @@
-let n = 6
-let total = 0
-for (let i=1; i<=n;i++) {
-    total+=i;
+function addUpTo(n) {
+    let n = 6
+    let total = 0
+    for (let i=1; i<=n;i++) {
+        total+=i;
+    }
+    console.log(total);
 }
-console.log(total);
